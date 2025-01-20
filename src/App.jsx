@@ -8,6 +8,7 @@ import Footer from "./pages/miniComponents/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { initializeAnalytics, logPageView } from "./lib/analytics.js"; 
+import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
