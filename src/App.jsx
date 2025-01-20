@@ -7,7 +7,7 @@ import ProjectView from "./pages/ProjectView";
 import Footer from "./pages/miniComponents/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { initializeAnalytics, logPageView } from "./utils/analytics"; 
+import { initializeAnalytics, logPageView } from "./lib/analytics.js"; 
 
 function App() {
   useEffect(() => {
