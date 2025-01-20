@@ -30,14 +30,14 @@ import "react-toastify/dist/ReactToastify.css";
 // }
 
 // PageTracker Component for Tracking Route Changes
-const PageTracker = () => {
-  const location = useLocation();
+// const PageTracker = () => {
+//   const location = useLocation();
 
-  useEffect(() => {
-    logPageView(location.pathname); // Log page views on route change
-  }, [location]);
+//   useEffect(() => {
+//     logPageView(location.pathname); // Log page views on route change
+//   }, [location]);
 
-  return null;
-};
+//   return null;
+// };
 
 export default App;
