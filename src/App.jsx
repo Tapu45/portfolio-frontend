@@ -1,7 +1,7 @@
 import "./App.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModeToggle } from "./components/mode-toggle";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route , useLocation} from "react-router-dom";
 import Home from "./pages/Home";
 import ProjectView from "./pages/ProjectView";
 import Footer from "./pages/miniComponents/Footer";
